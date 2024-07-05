@@ -1,7 +1,7 @@
 const express=require('express')
 const app=express();
 
-const PORT=process.env.PORT || 8000
+const PORT=process.env.PORT || 3000
 app.listen('/',(req,res)=>{
     return res.json({message:'Hey,I am nodejs in container'});
 });
